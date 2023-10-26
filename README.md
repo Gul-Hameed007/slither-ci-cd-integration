@@ -2,6 +2,11 @@
 
 Slither is a Solidity static analysis tool developed by Trail of Bits that identifies vulnerabilities and bugs in Solidity contracts. This repository provides a GitHub Actions workflow to seamlessly integrate Slither's analysis into your CI/CD process.
 
+## Simplified Slither Analysis Configuration
+
+For users and repositories that might not have access to GitHub Advanced Security (required for the SARIF feature), we've simplified the process to still benefit from Slither's analysis. This configuration will run Slither, save the analysis results in a file, commit that file to your repository, and also upload the analysis as an artifact. This ensures that you have easy access to the analysis output both within the repo and as a downloadable artifact.
+
+
 ## 📌 Table of Contents
 
 - [Features](#features)
